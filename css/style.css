@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	height: 100vh;
+	width: 100%;
+	
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+	animation: animate 10s ease-in-out infinite ;
+}
+
+@keyframes animate{
+	0%{
+		background-image: url('../images/home/header/2.png');
+
+	}
+	25%{
+		background-image: url('../images/home/header/1.png');
+	}
+
+	50%{
+		background-image: url('../images/home/header/2.png');
+	}
+	75%{
+		background-image: url('../images/home/header/3.png');
+	}
+	100%{
+		background-image: url('../images/home/header/2.png');
+
+	}
+}
+
+.layer{
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+	width: 100%;
+}
